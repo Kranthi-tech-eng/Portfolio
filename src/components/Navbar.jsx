@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
      
-        <nav className='h-15 bg-black flex justify-between p-4 '>
+        <nav className='sm:h-15 flex flex-col bg-black sm:flex-row sm:justify-between sm:items-center p-4'>
             <div className="gap flex gap-1">
                 <img src="pictures/portfoliopic.jpg" alt="" className='rounded-4xl h-8 ml-3 size-9' />
                 <h1 className='text-white font-bold mr-auto pt-1 cursor-pointer'>Kranthi</h1>
