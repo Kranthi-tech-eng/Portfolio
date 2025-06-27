@@ -4,10 +4,12 @@ const Navbar = () => {
     return (
      
         <nav className='sm:h-15 flex flex-col bg-black sm:flex-row sm:justify-between sm:items-center p-4'>
-            <div className="gap flex gap-1">
-                <img src="pictures/portfoliopic.jpg" alt="" className='rounded-4xl h-8 ml-3 size-9' />
-                <h1 className='text-white font-bold mr-auto pt-1 cursor-pointer'>Kranthi</h1>
-            </div>
+            <a href="https://kranthiprasad.vercel.app/">
+                <div className="gap flex gap-1 justify-center items-center">
+                    <img src="pictures/portfoliopic.jpg" alt="" className='rounded-4xl h-8 ml-3 size-9' />
+                    <h1 className='text-white font-bold mr-auto pt-1 cursor-pointer'>Kranthi</h1>
+                </div>
+            </a>
             <div className="options">
                
                 <ul className='cursor-pointer flex gap-2  text-white'>
