@@ -6,7 +6,7 @@ const Projects = () => {
       <section id="myprojects">
         <button className='bg-blue-600 w-full h-10 font-bold text-3xl text-white justify-center'>Projects</button>
         <h1 className='font-bold text-white justify-center text-center mt-2 text-3xl font-serif'>1. MediQuery</h1>
-        <img src="pictures/mediquery1.png" alt="" className='size-130 w-180 mx-auto mt-4' />
+        <img src="pictures/mediquery1.png" alt="" className='sm:size-130 sm:w-180 mx-auto mt-4 h-80 w-120' />
         <p className='text-white mt-2 text-2xl'><b>Full Stack Web Application
 
         </b> MediQuery is a web-based application designed to help users easily access essential information about medicines and manage their medication schedules with timely reminders. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), the platform delivers a smooth and responsive user experience. The application features a real-time search functionality that allows users to quickly find medicine details through dynamic backend queries. It also provides a simple interface for setting and managing medication reminders. The design is fully responsive, ensuring accessibility across various devices</p>
